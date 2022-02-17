@@ -8,6 +8,12 @@ public class NextDayTest {
 
     @ParameterizedTest
     @CsvSource({
+            "29,febrero,2020,1 marzo 2020",
+            "3,marzo,-7,año incorrecto: -7",
+            "30,febrero,2022,dia incorrecto: 30",
+            "29,febrero,2022,dia incorrecto: 29",
+            "28,febrero,2021,1 marzo 2021",
+
             "1,may,2011,mes incorrecto: may",
             "1,mayo,0,2 mayo 0",
             "-1,enero,2022,dia incorrecto: -1",
