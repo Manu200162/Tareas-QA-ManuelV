@@ -1,0 +1,12 @@
+Se quiere un metodo que dado una fecha (dia, mes, gestion) te devuelva el
+dia siguiene de esa fecha (dia, mes ,gestion)
+
+dato entrada  5  mayo  2020 ---->  6   mayo  2020
+dato entrado  28 febrero  2020 ---> 29 febrero 2020
+dato entrado  28 febrero  2021 ---> 1 marzo 2021
+
+dato Day incorrecto -----> dia incorrecto
+dato MONTH incorrecto ----> mes incorrecto
+dato YEAR incorrecto ----> gestion incorrecto
+class --- > DateUtils
+method ---> nextDate(int,string,int)
